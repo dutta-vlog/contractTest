@@ -1,0 +1,16 @@
+{
+  "id" : "2ff47535-8f77-48bd-ad8d-32ca44e9a0db",
+  "request" : {
+    "url" : "/student/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"id\":1,\"name\":\"James\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "2ff47535-8f77-48bd-ad8d-32ca44e9a0db"
+}
