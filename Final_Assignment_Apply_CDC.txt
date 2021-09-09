@@ -1,0 +1,21 @@
+Form a team of 6 people. Divide the team in 2 sub-teams (3 - Consumer Team; 3 - Provider Team).
+Start developing the "Provider" and "Consumer" microservices using Consumer Driven Contract testing.
+Provider Service
+-----------------
+Name: student-service
+Purpose: 
+To serve as a student details management service
+
+Operations:
+a. Return student details to consuming service based on request (GET call)
+b. Add a new student to the student list based on request (POST call)
+
+Name: enroll-service
+Purpose: To enrol new and existing students to different courses
+
+Operations:
+a. Enrol a new student to a course (POST call to "enrol-service", POST call to "student-service")
+b. Enrol an existing student to a course (POST call to "enrol-service", GET call to "student-service")
+
+
+
